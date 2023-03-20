@@ -17,7 +17,7 @@ class FullscreenMenu extends StatelessWidget {
             child: Container(
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                borderRadius: BorderRadiusDirectional.all(Radius.circular(20)),
+                borderRadius: BorderRadiusDirectional.all(Radius.circular(22)),
                 image: DecorationImage(
                   image: AssetImage(items[index].backgroundImage),
                   fit: BoxFit.cover,
